@@ -26,7 +26,7 @@ Clone this repository onto your computer and run the following commands to build
 git clone https://github.com/abrahamy/hello-app.git
 cd hello-app
 docker build -t helloapp .
-docker run --rm helloapp
+docker run --rm -p8000:8000 helloapp
 ```
 
 The application is now running on localhost at port 8000.
