@@ -41,7 +41,6 @@ Launch the python interactive shell by running `docker run -it --rm helloapp pyt
 
 ![Usage](https://github.com/abrahamy/hello-app/blob/main/example.png?raw=true)
 
-_Note_
-\_To run on your computer without using docker you need to ensure that the above dependencies are install. You may need to
+_Note: To run on your computer without using docker you need to ensure that the above dependencies are install. You may need to
 add `export LD_LIBRARY_PATH=/usr/local/lib` in your `.zshrc` or `.bashrc`. Alternatively, you may prefix your commands like
-so `LD_LIBRARY_PATH=/usr/local/lib python`.
+so `LD_LIBRARY_PATH=/usr/local/lib python`._
